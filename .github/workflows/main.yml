@@ -1,6 +1,10 @@
 name: A workflow for my Demo Website
 on: 
   workflow_dispatch:
+  push:
+    paths:
+    - '!.gihub/**'
+    - '**'
   
 jobs:
   build-job:
