@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '!.gihub/**'
-    - './*'
+    - '.**'
+    - '!.gihub/**'   
   
 jobs:
   build-job:
